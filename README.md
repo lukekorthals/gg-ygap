@@ -10,11 +10,7 @@ ggygap allows to easily add a gap in y-the axis of ggplots.
 
 ## Installation
 
-You can install the development version of ggygap like so:
-
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
-```
+devtools::install_github(“Divewalker/gg-ygap”)
 
 ## Example
 
