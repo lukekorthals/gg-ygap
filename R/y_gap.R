@@ -1,5 +1,8 @@
 #' gg.y_gap
 #'
+#' @import ggplot2
+#' @import scales
+#'
 #' @description Create a gap in your ggplot y-axis.
 #' @param p your ggplot
 #' @param y_segment_start minimum y-value (numerical; e.g., 50)
