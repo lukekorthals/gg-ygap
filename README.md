@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ggygap
+## ggygap
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -10,20 +10,21 @@ ggygap allows to easily add a gap in y-the axis of ggplots.
 
 ## Installation
 
-devtools::install_github(“Divewalker/gg-ygap”)
+    devtools::install_github("Divewalker/gg-ygap")
+    library(ggygap)
 
 ## Example
 
-1.  First create and edit your graph like you would normally do and
-    assign it to a variable.
-2.  Use gg.y_gap() to add your gap in the y axis. gg.y_gap() returns
-    your plot; simply assign it to a variable and you can continue
-    refining it.
+1.  Create and edit your graph like you would normally do and assign it
+    to a variable (e.g. p).
+2.  Use gg.y_gap() to add your gap in the y axis.
+3.  gg.y_gap() returns a ggplot you can work with as usual.
 
 ``` r
+#devtools::install_github("Divewalker/gg-ygap")
 library(ggplot2)
-library(scales)
 library(ggygap)
+
 # Example Data
 set.seed(1)
 x <- rep(0:9, 2)
@@ -32,6 +33,7 @@ z <- c(rep("a", 10), rep("b", 10))
 i <- rep(c("c", "d"), 10)
 dat <- data.frame(x, y, z, i)
 dat$i <- factor(dat$i)
+
 # 1. Create Plot
 p <- ggplot(dat, aes(x=x, y=y, color=z, group=z)) +
   geom_point() +
@@ -42,7 +44,8 @@ p
 <img src="man/figures/README-example-1.png" width="100%" />
 
 ``` r
-# 2. Add Gap (Continuous x Example)
+
+# 2. Add Gap (Continuous-X Example)
 gg.y_gap(p, y_segment_start = 85, y_segment_end = 110, break_step = 5)
 ```
 
@@ -50,10 +53,10 @@ gg.y_gap(p, y_segment_start = 85, y_segment_end = 110, break_step = 5)
 
 ``` r
 
-# 2. Add Gap (Categorical x Example + additional params)
+# 3. Continue Working With Your Plot (Categorical-X Example + Additional Params)
 p1 <- ggplot(dat, aes(x=i, y=y, fill=z, group=z)) +
   geom_bar(stat="identity", position="dodge")
-p
+p1
 ```
 
 <img src="man/figures/README-example-3.png" width="100%" />
@@ -68,3 +71,11 @@ gg.y_gap(p1, y_segment_start = 85, y_segment_end = 110, break_step = 5,
 ```
 
 <img src="man/figures/README-example-4.png" width="100%" />
+
+## Bugs and Feature Requests
+
+I developed the function for a very specific plot. Consequently, there
+will likely be many bugs and unsatisfied use cases - if you catch any,
+let me know :)
+
+Report bugs here: <https://github.com/Divewalker/gg-ygap/issues>
