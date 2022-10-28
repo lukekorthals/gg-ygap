@@ -22,7 +22,7 @@ ggygap allows to easily add a gap in y-the axis of ggplots.
 
 ## Installation
 ```
-devtools::install_github("Divewalker/gg-ygap")
+devtools::install_github("lukekorthals/gg-ygap")
 library(ggygap)
 ```
 

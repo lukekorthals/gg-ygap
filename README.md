@@ -6,11 +6,11 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-ggygap allows to easily add a gap in the y-axis of ggplots.
+ggygap allows to easily add a gap in y-the axis of ggplots.
 
 ## Installation
 
-    devtools::install_github("Divewalker/gg-ygap")
+    devtools::install_github("lukekorthals/gg-ygap")
     library(ggygap)
 
 ## Example
@@ -21,7 +21,7 @@ ggygap allows to easily add a gap in the y-axis of ggplots.
 3.  gg.y_gap() returns a ggplot you can work with as usual.
 
 ``` r
-#devtools::install_github("Divewalker/gg-ygap")
+#devtools::install_github("lukekorthals/gg-ygap")
 library(ggplot2)
 library(ggygap)
 
@@ -78,4 +78,4 @@ I developed the function for a very specific plot. Consequently, there
 will likely be many bugs and unsatisfied use cases - if you catch any,
 let me know :)
 
-Report bugs here: <https://github.com/Divewalker/gg-ygap/issues>
+Report bugs here: <https://github.com/lukekorthals/gg-ygap/issues>
