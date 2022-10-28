@@ -71,8 +71,8 @@ gg.y_gap <- function(p, y_segment_start, y_segment_end, break_step, gap_lines ="
                                   size=0.1)
     ) +
     # new y axis
-    annotate("segment", x=x_min, xend=x_min, y=y_min, yend=y_segment_end, color="black") +
-    annotate("segment", x=x_min, xend=x_min, y=y_min_gap, yend=y_max_gap, color="white") +
+    annotate("segment", x=x_min, xend=x_min, y=y_max_gap, yend=y_segment_end, color="black") +
+    annotate("segment", x=x_min, xend=x_min, y=y_min, yend=y_min_gap, color="black") +
     # left
     annotate("segment", x=x_gap_lower, xend=x_min, y=y_gap_lower, yend=y_min_gap, color="black", alpha=gap_line_left_alpha) +
     annotate("segment", x=x_gap_lower, xend=x_min, y=y_gap_lower+y_gap_length, yend=y_max_gap, color="black", alpha=gap_line_left_alpha) +
