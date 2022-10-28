@@ -4,9 +4,9 @@ Title: Easily create a gap in your ggplot y-axis.
 Version: 0.1.0
 Author: person("Luke", "Korthals", email = "luke.korthals@student.uva.nl",
                   role = c("aut", "cre"))
-URL: https://github.com/Divewalker/gg-ygap
-BugReports: https://github.com/Divewalker/gg-ygap/issues
-Description: Use to add a gap in the y-axis of your ggplot.
+URL: https://github.com/lukekorthals/gg-ygap
+BugReports: https://github.com/lukekorthals/gg-ygap/issues
+Description: Use to add a gap to the y-axis of your ggplot.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
