@@ -74,7 +74,7 @@ gg.y_gap(p1, y_segment_start = 85, y_segment_end = 110, break_step = 5,
 
 ## Bugs and Feature Requests
 
-I developed the function for a very specific plot. Consequently, there
+I developed this function for a very specific plot. Consequently, there
 will likely be many bugs and unsatisfied use cases - if you catch any,
 let me know :)
 

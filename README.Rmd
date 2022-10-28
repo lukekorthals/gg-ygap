@@ -34,7 +34,7 @@ library(ggygap)
 
 
 ```{r example}
-#devtools::install_github("Divewalker/gg-ygap")
+#devtools::install_github("lukekorthals/gg-ygap")
 library(ggplot2)
 library(ggygap)
 
@@ -70,9 +70,9 @@ gg.y_gap(p1, y_segment_start = 85, y_segment_end = 110, break_step = 5,
 
 ## Bugs and Feature Requests
 
-I developed the function for a very specific plot. Consequently, there will likely be many bugs and unsatisfied use cases - if you catch any, let me know :) 
+I developed this function for a very specific plot. Consequently, there will likely be many bugs and unsatisfied use cases - if you catch any, let me know :) 
 
-Report bugs here: https://github.com/Divewalker/gg-ygap/issues
+Report bugs here: https://github.com/lukekorthals/gg-ygap/issues
 
 
 
