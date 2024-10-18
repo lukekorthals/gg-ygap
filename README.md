@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-ggygap allows to easily add a gap in y-the axis of ggplots.
+ggygap allows to easily add a gap in the y-axis of ggplots.
 
 ## Installation
 
