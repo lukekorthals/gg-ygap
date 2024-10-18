@@ -41,7 +41,7 @@ p <- ggplot(dat, aes(x=x, y=y, color=z, group=z)) +
 p
 ```
 
-<img src="man/figures/README-example-1.png" width="100%" />
+<img src="https://github.com/lukekorthals/gg-ygap/blob/main/man/figures/README-example-1.png" width="100%" />
 
 ``` r
 
@@ -49,7 +49,7 @@ p
 gg.y_gap(p, y_segment_start = 85, y_segment_end = 110, break_step = 5)
 ```
 
-<img src="man/figures/README-example-2.png" width="100%" />
+<img src="https://github.com/lukekorthals/gg-ygap/blob/main/man/figures/README-example-2.png" width="100%" />
 
 ``` r
 
@@ -59,7 +59,7 @@ p1 <- ggplot(dat, aes(x=i, y=y, fill=z, group=z)) +
 p1
 ```
 
-<img src="man/figures/README-example-3.png" width="100%" />
+<img src="https://github.com/lukekorthals/gg-ygap/blob/main/man/figures/README-example-3.png" width="100%" />
 
 ``` r
 gg.y_gap(p1, y_segment_start = 85, y_segment_end = 110, break_step = 5,
@@ -70,7 +70,7 @@ gg.y_gap(p1, y_segment_start = 85, y_segment_end = 110, break_step = 5,
   )
 ```
 
-<img src="man/figures/README-example-4.png" width="100%" />
+<img src="https://github.com/lukekorthals/gg-ygap/blob/main/man/figures/README-example-4.png" width="100%" />
 
 ## Bugs and Feature Requests
 
